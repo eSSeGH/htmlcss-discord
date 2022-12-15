@@ -16,7 +16,6 @@
 /* all titles */
 
 h1[class^="title"] {
-    display: inline-block;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -32,7 +31,7 @@ h1[class^="title"] {
 /* all text */
 
 [class^="text"] {
-    display: inline-block;
+    display: block;
     margin-bottom: 2rem;
     line-height: 1.5rem;
 }
@@ -53,11 +52,19 @@ button {
     border: none;
 }
 
+.login-button:hover,
+.download:hover,
+.open-to-browser:hover,
+.download-blue:hover {
+    box-shadow: 0 0 15px black;
+}
+
 /* link */
 
 .text-link {
     text-decoration: none;
     color: white;
+    display: inline;
 }
 
 .text-link:hover {
@@ -264,4 +271,8 @@ footer {
 .logo,
 .register {
     margin: 0;
+}
+
+.register:hover {
+    box-shadow: 0 0 20px white;
 }
