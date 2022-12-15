@@ -1,0 +1,227 @@
+/* reset rules */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* all section paddings */
+
+.pad {
+    padding: 15vh 0; 
+}
+
+/* all titles */
+
+h1[class^="title"] {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+.small-title {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* all text */
+
+[class^="text"] {
+    display: inline-block;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+/* buttons */
+
+button {
+    padding: 0 0.8rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+/* link */
+
+.text-link {
+    text-decoration: none;
+    color: white;
+}
+
+.text-link:hover {
+    text-decoration-line: underline;
+}
+    
+
+/* container */
+
+.container1 {
+    max-width: 80vw;
+}
+
+.container2 {
+    max-width: 60vw;
+}
+
+/* row */
+
+.row {
+    display: flex;
+    padding: 
+}
+
+.subscribe .row {
+    margin-top: 20px;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+/* col */
+
+.row-cols-3 [class^="col"],
+.row-cols-2 [class^="col"] {
+    flex-basis: calc(100%/5);
+}
+
+.row-cols-3 .col2 {
+    flex-grow: 1;
+}
+
+.row-cols-2 .col1 {
+    flex-basis: calc(100%*3/5);
+}
+
+.row-cols-2 .col2 {
+    flex-basis: calc(100%*2/5);
+}
+
+.row-cols-5 [class^="col"] {
+    flex-basis: calc(100%/6);
+}
+
+/* header */
+
+header {
+    background-image: url(../img/jumbo.png);
+    height: 75vh;
+    background-size: 100vw;
+}
+
+.header-nav {
+    height: 15vh;
+    color: white;
+    text-align: center;
+}
+
+.header-nav .row {
+    align-items: center;
+}
+
+.header-nav .logo {
+    height: 8vh;
+}
+
+.col3>.login-button {
+    color: black;
+    background-color: #EEEEEE;
+    height: 2rem;
+}
+
+.header-nav .col2 {
+    line-height: 10vh;
+}
+
+.header-nav .text-link {
+    margin-right: 0.7rem;
+} 
+
+/* section page-desc*/
+
+.page-desc {
+    text-align: center;
+    padding-top: 0;
+}
+
+.page-desc button {
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+
+.page-desc .open-to-browser { 
+    background-color: black;
+    color: white;
+}
+
+/* sections: voice and technology*/
+
+.voice,
+.technology {
+    background-color: #EEEEEE;
+}
+
+.voice .row {
+    flex-direction: row-reverse;
+}
+
+.technology {
+    text-align: center;
+}
+
+.small-title {
+    display: block;
+    width: 500px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.download-blue {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  margin-top: 5vh;
+}
+
+/* section links*/
+
+
+/* nav subscribe */
+
+.subscribe .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row>button,
+.row>.logo {
+    background-color: lightcoral;
+    margin: 0;
+    border: 3px dashed black;
+}
+
