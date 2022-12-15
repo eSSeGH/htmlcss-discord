@@ -33,11 +33,6 @@ h1[class^="title"] {
     color: black;
 }
 
-.small-title {
-    color: black;
-    font-size: 1.2rem;
-}
-
 /* all text */
 
 [class^="text"] {
@@ -190,6 +185,7 @@ header {
 
 .download-span {
     display: block;
+    font-size: 1.2rem;
     width: 500px;
     background-image: url(../img/stars.svg);
     background-size: cover;
@@ -210,8 +206,40 @@ header {
 footer {
     background-color: rgb(13, 13, 13);
 }
+
 /* section links*/
 
+.links {
+    color: white;
+}
+
+.title-links {
+    font-size: 1.6rem;
+    color: cornflowerblue;
+    padding-bottom: 1.5rem;
+}
+ 
+.logo-bar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ita {
+    height: 1rem;
+}
+
+.logo-icon {
+    display: block;
+    background-color: white;
+}
+
+[class$="logo"] {
+    height: 2rem;
+}
+
+.list {
+    
+}
 
 /* nav subscribe */
 
