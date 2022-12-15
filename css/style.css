@@ -238,7 +238,11 @@ footer {
 }
 
 .list {
-    
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+.list-title {
+  color: cornflowerblue;
 }
 
 /* nav subscribe */
