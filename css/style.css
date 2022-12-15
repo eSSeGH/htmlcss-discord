@@ -113,6 +113,7 @@ header {
 }
 
 .header-nav {
+    margin-bottom: 15vh;
     height: 15vh;
     color: white;
     text-align: center;
@@ -242,7 +243,6 @@ footer {
 .subscribe .row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .blue-border {
@@ -259,4 +259,9 @@ footer {
     font-size: 1.2rem;
     height: 2.5rem;
     padding: 0 1rem;
+}
+
+.logo,
+.register {
+    margin: 0;
 }
