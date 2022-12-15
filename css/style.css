@@ -7,10 +7,6 @@
     font-size: 1rem;
 }
 
-img {
-    max-width: 100%;
-}
-
 /* all section paddings */
 
 .pad {
@@ -83,11 +79,6 @@ button {
 
 .row {
     display: flex;
-    padding: 
-}
-
-.subscribe .row {
-    width: 100%;
 }
 
 /* col */
@@ -193,13 +184,13 @@ header {
 }
 
 .download-blue {
-  background-color: cornflowerblue;
-  color: white;
-  font-size: 1.2rem;
-  height: 2.5rem;
-  padding: 0 1rem;
-  margin-top: 5vh;
-}
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+    margin-top: 5vh;
+  }
 
 /* footer */
 
@@ -241,6 +232,7 @@ footer {
     list-style-type: none;
     line-height: 1.5rem;
 }
+
 .list-title {
   color: cornflowerblue;
 }
@@ -250,6 +242,21 @@ footer {
 .subscribe .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.blue-border {
+    border-top: 2px solid cornflowerblue;
+}
 
+.navbar {
+    padding: 2vh 0 4vh;
+}
+
+.register {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+}
