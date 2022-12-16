@@ -227,10 +227,16 @@ footer {
 .logo-bar {
     display: flex;
     justify-content: flex-start;
+    padding: 1.5rem 0;
 }
 
-.ita {
-    height: 1rem;
+.lang-select select {
+    color: black;
+    line-height: 1rem;
+    padding: 0 5px 0 35px;
+    background-image: url(../img/ita.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 
 .logo-icon {
