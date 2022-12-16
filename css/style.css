@@ -67,10 +67,10 @@ button:hover {
     display: inline;
 }
 
+.list>li:hover,
 .text-link:hover {
     text-decoration-line: underline;
 }
-    
 
 /* container */
 
