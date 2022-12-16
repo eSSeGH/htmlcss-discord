@@ -55,10 +55,7 @@ button {
 /* ai bottoni si può dare l'impostazione col flex per
  centrare il contenuto */
 
-.login-button:hover,
-.download:hover,
-.open-to-browser:hover,
-.download-blue:hover {
+button:hover {
     box-shadow: 0 0 15px black;
 }
 
