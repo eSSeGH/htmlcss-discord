@@ -131,6 +131,8 @@ header {
 
 .header-nav .logo {
     height: 8vh;
+    position: relative;
+    top: 0.3rem;
 }
 
 .menu1 {
@@ -283,6 +285,11 @@ footer {
 .logo,
 .register {
     margin: 0;
+}
+
+.subscribe .logo {
+    position: relative;
+    top: 0.3rem;
 }
 
 .register:hover {
