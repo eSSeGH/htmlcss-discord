@@ -52,6 +52,9 @@ button {
     border: none;
 }
 
+/* ai bottoni si può dare l'impostazione col flex per
+ centrare il contenuto */
+
 .login-button:hover,
 .download:hover,
 .open-to-browser:hover,
@@ -132,6 +135,14 @@ header {
 
 .header-nav .logo {
     height: 8vh;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 0;
 }
 
 .col3>.login-button {
